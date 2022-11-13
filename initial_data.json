@@ -1,0 +1,58 @@
+[
+{
+    "model": "test_task.rental",
+    "pk": 1,
+    "fields": {
+        "name": "rental-1"
+    }
+},
+{
+    "model": "test_task.rental",
+    "pk": 2,
+    "fields": {
+        "name": "rental-2"
+    }
+},
+
+{
+  "model": "test_task.reservation",
+  "fields": {
+      "rental": 1,
+      "checkin": "2022-01-01",
+      "checkout": "2022-01-13"
+  }
+},
+{
+  "model": "test_task.reservation",
+  "fields": {
+      "rental": 1,
+      "checkin": "2022-01-20",
+      "checkout": "2022-02-10"
+  }
+},   
+{
+  "model": "test_task.reservation",
+  "fields": {
+      "rental": 1,
+      "checkin": "2022-02-20",
+      "checkout": "2022-03-10"
+  }
+},  
+    
+{
+  "model": "test_task.reservation",
+  "fields": {
+      "rental": 2,
+      "checkin": "2022-01-02",
+      "checkout": "2022-01-20"
+  }
+},
+{
+  "model": "test_task.reservation",
+  "fields": {
+      "rental": 2,
+      "checkin": "2022-01-20",
+      "checkout": "2022-02-11"
+  }
+}
+]
